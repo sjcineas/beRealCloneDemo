@@ -6,17 +6,28 @@
 //
 
 import UIKit
-
+import ParseSwift
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        // TODO: Pt 1 - Initialize Parse SDK
+        // https://github.com/parse-community/Parse-Swift/blob/main/ParseSwift.playground/Sources/Common.swift
+        ParseSwift.initialize(applicationId: "fcD2shPyvYc144PBiYRXIr3dZsiQMinmRWLWF9XX",
+                              clientKey: "H2nRhvERAGV1SAAGyFZ0JHLBRJRxyJywnQLPqInc",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
+
+
+        
+        // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/1%20-%20Your%20first%20Object.xcplaygroundpage/Contents.swift#L121
+        // Instantiate the test parse object
+
+
         return true
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
