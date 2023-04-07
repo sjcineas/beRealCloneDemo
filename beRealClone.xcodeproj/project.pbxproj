@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771907AF29CFA47000B821A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907AE29CFA47000B821A2 /* User.swift */; };
+		771907B129CFA50000B821A2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907B029CFA50000B821A2 /* SignUpViewController.swift */; };
+		771907B329CFC2EF00B821A2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907B229CFC2EF00B821A2 /* DateFormatter.swift */; };
+		771907B829CFC42000B821A2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907B729CFC42000B821A2 /* FeedViewController.swift */; };
+		771907BA29CFC50D00B821A2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907B929CFC50D00B821A2 /* Post.swift */; };
+		771907BC29CFDE9E00B821A2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907BB29CFDE9E00B821A2 /* PostCell.swift */; };
+		771907C029D1141900B821A2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771907BF29D1141900B821A2 /* PostViewController.swift */; };
 		77CAF4D529CE3045008A23F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAF4D429CE3045008A23F2 /* AppDelegate.swift */; };
 		77CAF4D729CE3045008A23F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAF4D629CE3045008A23F2 /* SceneDelegate.swift */; };
 		77CAF4D929CE3045008A23F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAF4D829CE3045008A23F2 /* ViewController.swift */; };
 		77CAF4DC29CE3045008A23F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CAF4DA29CE3045008A23F2 /* Main.storyboard */; };
 		77CAF4DE29CE3046008A23F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CAF4DD29CE3046008A23F2 /* Assets.xcassets */; };
 		77CAF4E129CE3046008A23F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CAF4DF29CE3046008A23F2 /* LaunchScreen.storyboard */; };
+		E4685C8DDA40E1DAC6501132 /* Pods_beRealClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A517E79DEB484E414AFA94AD /* Pods_beRealClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72C66F7297CCF3AB15711648 /* Pods-beRealClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beRealClone.debug.xcconfig"; path = "Target Support Files/Pods-beRealClone/Pods-beRealClone.debug.xcconfig"; sourceTree = "<group>"; };
+		771907AE29CFA47000B821A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		771907B029CFA50000B821A2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		771907B229CFC2EF00B821A2 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		771907B729CFC42000B821A2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		771907B929CFC50D00B821A2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		771907BB29CFDE9E00B821A2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		771907BF29D1141900B821A2 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		77CAF4D129CE3045008A23F2 /* beRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beRealClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CAF4D429CE3045008A23F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77CAF4D629CE3045008A23F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		77CAF4DD29CE3046008A23F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77CAF4E029CE3046008A23F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77CAF4E229CE3046008A23F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A517E79DEB484E414AFA94AD /* Pods_beRealClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beRealClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28BB66722FF15A37F24A97E /* Pods-beRealClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beRealClone.release.xcconfig"; path = "Target Support Files/Pods-beRealClone/Pods-beRealClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4685C8DDA40E1DAC6501132 /* Pods_beRealClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E29B8A60DF61770212F3A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C66F7297CCF3AB15711648 /* Pods-beRealClone.debug.xcconfig */,
+				B28BB66722FF15A37F24A97E /* Pods-beRealClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		771907B429CFC3C600B821A2 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				771907B729CFC42000B821A2 /* FeedViewController.swift */,
+				771907BB29CFDE9E00B821A2 /* PostCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		771907BD29D1109F00B821A2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				77CAF4D429CE3045008A23F2 /* AppDelegate.swift */,
+				77CAF4D629CE3045008A23F2 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		771907BE29D113DF00B821A2 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				771907BF29D1141900B821A2 /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
 		77CAF4C829CE3045008A23F2 = {
 			isa = PBXGroup;
 			children = (
 				77CAF4D329CE3045008A23F2 /* beRealClone */,
 				77CAF4D229CE3045008A23F2 /* Products */,
+				0E29B8A60DF61770212F3A30 /* Pods */,
+				E1A30FA129E756998348C72B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,44 @@
 		77CAF4D329CE3045008A23F2 /* beRealClone */ = {
 			isa = PBXGroup;
 			children = (
-				77CAF4D429CE3045008A23F2 /* AppDelegate.swift */,
-				77CAF4D629CE3045008A23F2 /* SceneDelegate.swift */,
-				77CAF4D829CE3045008A23F2 /* ViewController.swift */,
+				771907BE29D113DF00B821A2 /* Post */,
+				771907BD29D1109F00B821A2 /* Delegates */,
+				771907B429CFC3C600B821A2 /* Feed */,
+				77CAF4E929CE305B008A23F2 /* Registration */,
+				77CAF4E829CE304F008A23F2 /* Models */,
 				77CAF4DA29CE3045008A23F2 /* Main.storyboard */,
 				77CAF4DD29CE3046008A23F2 /* Assets.xcassets */,
 				77CAF4DF29CE3046008A23F2 /* LaunchScreen.storyboard */,
 				77CAF4E229CE3046008A23F2 /* Info.plist */,
+				771907B229CFC2EF00B821A2 /* DateFormatter.swift */,
 			);
 			path = beRealClone;
+			sourceTree = "<group>";
+		};
+		77CAF4E829CE304F008A23F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				771907AE29CFA47000B821A2 /* User.swift */,
+				771907B929CFC50D00B821A2 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77CAF4E929CE305B008A23F2 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				77CAF4D829CE3045008A23F2 /* ViewController.swift */,
+				771907B029CFA50000B821A2 /* SignUpViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		E1A30FA129E756998348C72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A517E79DEB484E414AFA94AD /* Pods_beRealClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77CAF4E529CE3046008A23F2 /* Build configuration list for PBXNativeTarget "beRealClone" */;
 			buildPhases = (
+				A9DC0950164CB48B83C2D06A /* [CP] Check Pods Manifest.lock */,
 				77CAF4CD29CE3045008A23F2 /* Sources */,
 				77CAF4CE29CE3045008A23F2 /* Frameworks */,
 				77CAF4CF29CE3045008A23F2 /* Resources */,
+				A02DE531E78EC68C8017A799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +220,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A02DE531E78EC68C8017A799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beRealClone/Pods-beRealClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beRealClone/Pods-beRealClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beRealClone/Pods-beRealClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9DC0950164CB48B83C2D06A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beRealClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77CAF4CD29CE3045008A23F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771907B329CFC2EF00B821A2 /* DateFormatter.swift in Sources */,
+				771907AF29CFA47000B821A2 /* User.swift in Sources */,
 				77CAF4D929CE3045008A23F2 /* ViewController.swift in Sources */,
+				771907BA29CFC50D00B821A2 /* Post.swift in Sources */,
+				771907C029D1141900B821A2 /* PostViewController.swift in Sources */,
 				77CAF4D529CE3045008A23F2 /* AppDelegate.swift in Sources */,
+				771907BC29CFDE9E00B821A2 /* PostCell.swift in Sources */,
 				77CAF4D729CE3045008A23F2 /* SceneDelegate.swift in Sources */,
+				771907B129CFA50000B821A2 /* SignUpViewController.swift in Sources */,
+				771907B829CFC42000B821A2 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		77CAF4E629CE3046008A23F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C66F7297CCF3AB15711648 /* Pods-beRealClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(beRealClone)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MySwift.beRealClone;
@@ -310,6 +448,7 @@
 		};
 		77CAF4E729CE3046008A23F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28BB66722FF15A37F24A97E /* Pods-beRealClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(beRealClone)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MySwift.beRealClone;
