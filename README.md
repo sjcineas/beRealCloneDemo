@@ -1,41 +1,37 @@
-# Project 5 - *beRealClone*
+# Project 6 - *beRealClone*
 
 Submitted by: **Schadrack Cineas**
 
-berealClone is an app that replicates the interface and functionality of the beReal app.
+**beRealClone** is an app that introduces Blurring images. [TODO] 
 
-Time spent: **5** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can register a new account
-- [x] User can log in with newly created account
-- [x] App has a feed of posts when user logs in
-- [x] User can upload a new post which takes in a picture from photo library and a caption	
+- [x] User can launch camera to take photo instead of photo library
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [ ] Users are NOT able to see other photos until they upload their own	
  
 The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
-- [x] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed	
-- [x] User is able to logout
-- [ ] User stays logged in when app is closed and open again	
-
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in posts	
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] User can see time stamps
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://submissions.us-east-1.linodeobjects.com/ios102/x1QwZ75M.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://submissions.us-east-1.linodeobjects.com/ios102/7Yvmb7zb.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- LiceCap -->
-GIF created with LiceCap  
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
